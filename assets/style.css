@@ -1,0 +1,27 @@
+body {
+  background-image: url("../assets/images/diagonal-squares.png");
+  margin: 0px;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  flex: 1 0 auto;
+}
+#my-picture {
+  height: 150px;
+  margin-right: 10px;
+  float: left;
+}
+.jumbotron h1 {
+  font-family: "Georgia", Times, Times New Roman, serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #4aaaa5;
+}
+.jumbotron {
+  padding: 32px;
+  border: 3px solid;
+  border-collapse: collapse;
+  border-color: #dddddd;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+}
