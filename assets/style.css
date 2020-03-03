@@ -10,6 +10,8 @@ nav {
   position: sticky;
   border-bottom: solid 3px;
   border-color: #dddddd;
+
+  z-index: 99;
 }
 .navbar {
   top: 0;
@@ -33,7 +35,8 @@ nav {
 li a {
   height: 58px;
   line-height: 58px;
-  width: 75px;
+  width: 100%;
+  margin: 0 10px 0;
   color: #777777;
   text-align: center;
   padding: 0 !important;
@@ -78,4 +81,7 @@ footer {
 
 .portfolio-img {
   margin: 0 auto;
+}
+.navbar-collapse {
+  background-color: white;
 }
