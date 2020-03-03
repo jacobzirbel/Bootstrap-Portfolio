@@ -40,6 +40,7 @@ li a {
 }
 .nav-item :hover {
   background-color: #dddddd;
+  color: #777777;
 }
 
 #my-picture {
@@ -58,6 +59,8 @@ li a {
   border: 3px solid;
   border-collapse: collapse;
   border-color: #dddddd;
+  margin: 20px auto;
+  max-width: 960px;
 }
 
 footer {
@@ -71,4 +74,8 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
+}
+
+.portfolio-img {
+  margin: 0 auto;
 }
