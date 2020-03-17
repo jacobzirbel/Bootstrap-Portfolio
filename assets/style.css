@@ -94,7 +94,7 @@ footer {
 	width: fit-content;
 }
 
-img:hover {
+.portfolio-img img:hover {
 	opacity: 75%;
 }
 
