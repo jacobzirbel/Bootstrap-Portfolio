@@ -93,7 +93,10 @@ footer {
 	margin: 0 auto;
 	width: fit-content;
 }
-
+.portfolio-img img {
+	width: 250px;
+	height: 250px;
+}
 .portfolio-img img:hover {
 	opacity: 75%;
 }
