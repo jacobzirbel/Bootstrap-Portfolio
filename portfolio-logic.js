@@ -14,6 +14,21 @@ let projects = [
 		URL: "https://jacobzirbel.github.io/TriviaGame/",
 		imgUrl: "assets/images/greek.jpg",
 	},
+	{
+		name: "Gif Search",
+		URL: "https://jacobzirbel.github.io/giphy-api/",
+		imgUrl: "assets/images/greek.jpg",
+	},
+	{
+		name: "Rock Paper Scissors-multiplayer",
+		URL: "https://jacobzirbel.github.io/RPS-Multiplayer/",
+		imgUrl: "assets/images/greek.jpg",
+	},
+	{
+		name: "Road Trippers",
+		URL: "https://road-trippers.github.io/road-trip-app/",
+		imgUrl: "assets/images/greek.jpg",
+	},
 ];
 
 let jumbo = document.getElementsByClassName("jumbotron")[0];
