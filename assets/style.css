@@ -92,6 +92,7 @@ footer {
 .portfolio-img {
 	margin: 0 auto;
 	width: fit-content;
+	height: 300px;
 }
 .portfolio-img img {
 	width: 250px;
@@ -100,7 +101,9 @@ footer {
 .portfolio-img img:hover {
 	opacity: 75%;
 }
-
+.portfolio-img a {
+	margin-top: -40px;
+}
 .portfolio-img p {
 	position: relative;
 	bottom: 30%;
