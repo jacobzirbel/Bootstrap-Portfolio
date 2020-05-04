@@ -6,6 +6,12 @@ let projects = [
 		repoUrl: "https://github.com/Road-Trippers/road-trip-app",
 	},
 	{
+		name: "Music/Movie Search",
+		deployedAt: "https://imgur.com/7MIbSZl",
+		imgUrl: "./assets/images/demo.gif",
+		repoUrl: "https://github.com/jacobzirbel/LIRI-node",
+	},
+	{
 		name: "Harry Potter Hangman",
 		deployedAt: "https://jacobzirbel.github.io/Word-Guess-Game/",
 		imgUrl: "assets/images/hangman.png",
@@ -51,9 +57,9 @@ projects.forEach((e, i, arr) => {
 		row = document.createElement("div");
 		row.setAttribute("class", "row justify-content-start");
 	}
-	let newItem = document.createElement("div");
+	let newItem = document.createElement("a");
 	newItem.setAttribute("class", "col-md-4 portfolio-img");
-	newItem.onclick = () => window.open(e.deployedAt, "_blank");
+	newItem.setAttribute("href", e.deployedAt);
 	let newImg = document.createElement("img");
 	newImg.setAttribute("src", e.imgUrl);
 	let newText = document.createElement("p");
