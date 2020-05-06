@@ -1,13 +1,7 @@
 let projects = [
 	{
-		name: "Road Trippers",
-		deployedAt: "https://road-trippers.github.io/road-trip-app/",
-		imgUrl: "assets/images/rtp.png",
-		repoUrl: "https://github.com/Road-Trippers/road-trip-app",
-	},
-	{
 		name: "Music/Movie Search",
-		deployedAt: "https://imgur.com/7MIbSZl",
+		deployedAt: "https://i.imgur.com/7MIbSZl.mp4",
 		imgUrl: "./assets/images/demo.gif",
 		repoUrl: "https://github.com/jacobzirbel/LIRI-node",
 	},
@@ -16,6 +10,12 @@ let projects = [
 		deployedAt: "https://jacobzirbel.github.io/Word-Guess-Game/",
 		imgUrl: "assets/images/hangman.png",
 		repoUrl: "https://github.com/jacobzirbel/Word-Guess-Game",
+	},
+	{
+		name: "Rock Paper Scissors-multiplayer",
+		deployedAt: "https://jacobzirbel.github.io/RPS-Multiplayer/",
+		imgUrl: "assets/images/rps.jpg",
+		repoUrl: "https://github.com/jacobzirbel/RPS-Multiplayer",
 	},
 	{
 		name: "jQuery Game",
@@ -30,16 +30,16 @@ let projects = [
 		repoUrl: "https://github.com/jacobzirbel/TriviaGame",
 	},
 	{
+		name: "Road Trippers",
+		deployedAt: "https://road-trippers.github.io/road-trip-app/",
+		imgUrl: "assets/images/rtp.png",
+		repoUrl: "https://github.com/Road-Trippers/road-trip-app",
+	},
+	{
 		name: "Gif Search",
 		deployedAt: "https://jacobzirbel.github.io/giphy-api/",
 		imgUrl: "assets/images/giphy.gif",
 		repoUrl: "https://github.com/jacobzirbel/giphy-api",
-	},
-	{
-		name: "Rock Paper Scissors-multiplayer",
-		deployedAt: "https://jacobzirbel.github.io/RPS-Multiplayer/",
-		imgUrl: "assets/images/rps.jpg",
-		repoUrl: "https://github.com/jacobzirbel/RPS-Multiplayer",
 	},
 ];
 
